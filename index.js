@@ -65,6 +65,40 @@ let filmes = ['star wars', 'matrix',  'mr. robot', 'o preço do amanhã',  'a vi
 //}
 console.log (result);
 
+function converterArrayParaMaiusculas(array){
+    let arrayMaiusculo = [];
+    arrayMaiusculo.push(array[0].toUpperCase());
+    arrayMaiusculo.push(array[1].toUpperCase()); 
+    arrayMaiusculo.push(array[2].toUpperCase());
+    arrayMaiusculo.push(array[3].toUpperCase());
+    arrayMaiusculo.push(array[4].toUpperCase());
+
+    return arrayMaiusculo
+}
+
+let filmesAnimados = ["Toy Story", "Procurando Nemo", "Kung-fu Panda", "Wally", "Fortnite"];
+
+console.log(filmesAnimados);
+console.log(converterArrayParaMaiusculas(filmesAnimados));
+
+function adicionarElementos(array,array2){
+    array.push(array2[0]);
+    array.push(array2[2]);
+    array.push(array2[2]);
+    array.push(array2[3]);
+    array.push(array2[4]);
+
+    return array;
+}
+
+console.log(adicionarElementos(filmes,filmesAnimados));
+
+let todosOsFilmes = adicionarElementos(filmes,filmesAnimados);
+console.log(todosOsFilmes);
+let intrusoRemovido = todosOsFilmes.pop();
+console.log(todosOsFilmes);
+console.log(intrusoRemovido);
+
     /*function comparaPontuacoes(asia,euro){
         if(asia[0]) = euro[0] {
             console.log("Na primeira rodada os dois são iguais")
