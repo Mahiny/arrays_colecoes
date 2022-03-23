@@ -59,9 +59,33 @@ function join(array){
 
 let filmes = ['star wars', 'matrix',  'mr. robot', 'o preço do amanhã',  'a vida é bela']
 
-// function maiuscula (array){   //não consegui criar a função para deixalos maiusculo
   let result = filmes.map(lista =>{ //este modo cria uma nova variavel como maisucula 
   return lista.toUpperCase();
 })
 //}
 console.log (result);
+
+    /*function comparaPontuacoes(asia,euro){
+        if(asia[0]) = euro[0] {
+            console.log("Na primeira rodada os dois são iguais")
+        } else {
+            console.log("Na primeira pontuação as duas são diferentes")
+        }
+    }*/
+
+ // Estruturas de repetição // Laços de repetição
+ 
+  // Para um índice começando em 0 até 10 e o indice indo de um em um faça alguma coisa
+  // let indice = 0 >> ponto de partida ou critério inicial
+  // indice < 10 >> criterio de parada do laço de repetição
+  // indice ++ >> passo do ponto de partida
+  // indice ++ >> adicionando 1 em indice
+  // indice ++ >> indice += 1 >> indice = indice + 1
+  // indice = indice + 2 >> indice += 2
+  //
+  // let numeros = [10, 20, 30, 40];
+
+
+  /*for (let indice = 1; indice < 1000; indice++) {
+      console.log("EStou em um laço de repetição na interação" ${indice});
+  }*/
